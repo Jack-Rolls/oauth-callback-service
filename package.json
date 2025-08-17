@@ -1,0 +1,21 @@
+{
+  "name": "external-oauth-callback",
+  "version": "1.0.0",
+  "description": "External OAuth callback service to replace problematic Lambda",
+  "main": "external-oauth-callback.js",
+  "type": "module",
+  "scripts": {
+    "start": "node external-oauth-callback.js",
+    "dev": "node external-oauth-callback.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["oauth", "google", "callback"],
+  "author": "Inbox Auto-Responder",
+  "license": "MIT"
+}
